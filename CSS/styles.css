@@ -1,0 +1,31 @@
+body{
+    background-color: #2c5c7c;
+    margin: 0;
+}
+
+.topcontainer{
+    border: 10px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    color: red;
+}
+
+.middlecontainer{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border:20px solid;
+    margin-left:260px;
+}
+
+.bottomcontainer{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border:10px solid;
+    margin-left:500px;
+}
+
+
