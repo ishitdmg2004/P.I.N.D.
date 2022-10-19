@@ -1,0 +1,47 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 75%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("file:///Users/nandanikodan/Desktop/P.I.N.D/images/20%20Indian%20Thali%20Ideas.jpg"); }
+  .img2 { background-image: url("file:///Users/nandanikodan/Desktop/P.I.N.D/images/Chickpea%20Spinach%20Curry%20(Chana%20Palak%20Masala).jpg");  }
+  .img3 { background-image: url("file:///Users/nandanikodan/Desktop/P.I.N.D/images/Dhaba%20Style%20Matar%20Paneer%20Recipe.jpg"); }
+  .img4 { background-image: url("file:///Users/nandanikodan/Desktop/P.I.N.D/images/Sweet%20Potato%20Mini%20Samosas%20-%20The%20Twin%20Cooking%20Project%20by%20Sheenam%20&%20Muskaan.jpg"); }
+  
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid white;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
