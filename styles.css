@@ -238,3 +238,89 @@ h1{
   border-radius: 5px;
   width: 180px;
 }
+
+
+/*Events section*/
+
+.timeline{
+  position: relative;
+  width: 75%;
+  border: 2px ;
+  margin: 170px;
+  margin-top: 50px;
+
+}
+
+.timeline-box{
+  position: relative;
+  margin: 5px;
+  width: 40%;
+  left: 5%;
+  min-height: 150px;
+  border: 2px ;
+}
+
+.timeline-box:nth-child(2n){
+  left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+  content: '';
+  position: absolute;
+  top: 32%;
+  right: -13.3%;
+  border-radius: 50%;
+  width: 0.65rem;
+  height: 0.65rem;
+  background-color: darkorange;
+  z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after{
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -9.2%;
+  border-radius: 50%;
+  width: 0.65rem;
+  height: 0.65rem;
+  background-color: darkorange;
+  z-index: 1;
+}
+
+.timeline-divider{
+  position: absolute;
+  height: 75%;
+  width: 0;
+  border: 3px dashed bisque;
+  top: 10%;
+  left: 50%;
+  
+}
+
+.timeline-traveller{
+  position: sticky;
+  top: 25%;
+  transform: rotate(90deg);
+  font-size: 2rem;
+  z-index: 2;
+
+}
+
+.heading-timeline{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+.subheading-timeline{
+  color: bisque;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 20px;
+
+}
+
+.timeline-info{
+  font-size: 13px;
+}
