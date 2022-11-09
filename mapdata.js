@@ -1,16 +1,16 @@
 var simplemaps_countrymap_mapdata={
   main_settings: {
    //General settings
-    width: "800", //'700' or 'responsive'
-    background_color: "#FFFFFF",
-    background_transparent: "yes",
+    width: "520", //'700' or 'responsive'
+    background_color: "#DAA06D",
+    background_transparent: "no",
     border_color: "#ffffff",
     
     //State defaults
     state_description: "State description",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
-    state_url: "https://simplemaps.com",
+    state_color: "rgb(149, 66, 6)",
+    state_hover_color: "#DAA06D",
+    border_color: "black",
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
@@ -31,8 +31,8 @@ var simplemaps_countrymap_mapdata={
     all_locations_hidden: "no",
     
     //Label defaults
-    label_color: "#d5ddec",
-    label_hover_color: "#d5ddec",
+    label_color: "blue",
+    label_hover_color: "green",
     label_size: 22,
     label_font: "Arial",
     hide_labels: "no",
@@ -55,11 +55,11 @@ var simplemaps_countrymap_mapdata={
     popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
-    popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
+    popup_font: "15px/1.5 sans-serif",
     popup_nocss: "no",
     
     //Advanced settings
-    div: "map",
+    div: "map og",
     auto_load: "yes",
     url_new_tab: "no",
     images_directory: "default",
@@ -70,35 +70,35 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     "1": {
       name: "Andaman And Nicobar",
-      description: "default",
+      description: "Coconut Prawn Curry OR Macher Jhol",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "2": {
       name: "Andhra Pradesh",
-      description: "hiiiiii",
+      description: "Pesarattu AND Gutti Vankaya Koora",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "3": {
       name: "Arunachal Pradesh",
-      description: "default",
+      description: "Pehak OR Pasa",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "4": {
       name: "Assam",
-      description: "default",
+      description: "Pitika AND Pitha",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "5": {
       name: "Bihar",
-      description: "default",
+      description: "Litti Chokha AND Khaja",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -112,7 +112,7 @@ var simplemaps_countrymap_mapdata={
     },
     "7": {
       name: "Chhattisgarh",
-      description: "default",
+      description: "Aamat AND Khurma",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -147,14 +147,14 @@ var simplemaps_countrymap_mapdata={
     },
     "12": {
       name: "Gujarat",
-      description: "default",
+      description: "Dabeli AND Fafda Jalebi",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "13": {
       name: "Haryana",
-      description: "default",
+      description: "Kachri ki Sabzi AND Bathua Raita",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -203,7 +203,7 @@ var simplemaps_countrymap_mapdata={
     },
     "21": {
       name: "Maharashtra",
-      description: "default",
+      description: "Malvani Cuisine OR Thalipeeth",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -252,14 +252,14 @@ var simplemaps_countrymap_mapdata={
     },
     "28": {
       name: "Punjab",
-      description: "default",
+      description: "Amritsari Kulcha OR Makki ki Roti/Sarson Ka Saag",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     "29": {
       name: "Rajasthan",
-      description: "default",
+      description: "Dal Batti Churma OR Gatte Ki Sabzi",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -287,10 +287,10 @@ var simplemaps_countrymap_mapdata={
     },
     "33": {
       name: "Uttar Pradesh",
-      description: "default",
+      description: "Lucknowi Biryani AND Malaiyo",
       color: "default",
       hover_color: "default",
-      url: "default"
+      url: "default",
     },
     "34": {
       name: "Uttaranchal",
@@ -328,17 +328,10 @@ var simplemaps_countrymap_mapdata={
       url: "default"
     }
   },
-  locations: {
-    "0": {
-      lat: 18.987807,
-      lng: 72.836447,
-      name: "Mumbai"
-    }
-  },
+  
   labels: {},
   legend: {
     entries: []
   },
   regions: {}
 };
-
