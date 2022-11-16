@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -301,7 +302,11 @@ h1{
   border: 2px ;
   margin: 170px;
   margin-top: 50px;
-
+  background-color: #DAA06D;
+  background-image: url("eventsbg-nobg.png");
+  background-blend-mode: overlay;
+  z-index: 2;
+  opacity: 90%;
 }
 
 .timeline-box{
@@ -311,6 +316,7 @@ h1{
   left: 5%;
   min-height: 150px;
   border: 2px ;
+  
 }
 
 .timeline-box:nth-child(2n){
@@ -375,6 +381,7 @@ h1{
   font-size: 1.5rem;
   color: black;
   font-weight: 700;
+  background-color: #DAA06D;
 }
 
 .subheading-timeline{
@@ -382,25 +389,29 @@ h1{
   font-weight: 500;
   letter-spacing: 2px;
   font-size: 20px;
+  background-color: #DAA06D;
 
 }
 
 .timeline-info{
-  font-size: 13px;
+  font-size: 15px;
+  background-color: #DAA06D;
 }
 
 .Prateek{
   height: 240px;
   width: 434.05px;
   border-radius: 10px 10px;
-  opacity: 87%;
+  opacity: 95%;
+  z-index: 3;
 }
 
 .Kapil{
   height: 240px;
   width: 434.05px;
   border-radius: 10px 10px ;
-  opacity: 87%;
+  opacity: 95%;
+  z-index: 1;
 
 }
 
@@ -408,7 +419,7 @@ h1{
   height: 240px;
   width: 434.05px;
   border-radius: 10px 10px ;
-  opacity: 87%;
+  opacity: 95%;
 
 }
 
@@ -416,7 +427,7 @@ h1{
   height: 240px;
   width: 434.05px;
   border-radius: 10px 10px ;
-  opacity: 87%;
+  opacity: 95%;
 }
 
 
@@ -475,7 +486,7 @@ h1{
 }
 
 .caterb{
-    border: 2px solid white;
+    border: 2.5px solid white;
     font-weight: 750;
     width: 30%;
     height: 50px;
