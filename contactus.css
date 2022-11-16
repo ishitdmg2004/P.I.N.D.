@@ -130,7 +130,7 @@ table {
 }
 
 html {
-    background-image: url('toppng.com-waiter-4784x3400.png');
+    background-image: url('https://raw.githubusercontent.com/ishitdmg2004/P.I.N.D./master/toppng.com-waiter-4784x3400.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position-x: right;
@@ -140,37 +140,70 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo{
+  width:70px;
+}
+  
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  margin: 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: ghostwhite;
+/*  transition: color 1s, border-bottom: 4s;*/
+  font-size: 17px;
 }
 
 
-img {
-    width: 100px;
-    border-radius: 50%;
+.hoe:hover{
+  color: #d2d2d2;
+/*  border-bottom: 1px solid;*/
+/*    padding-bottom: 10px;*/
+
 }
 
-nav ul li {
-    font-weight: 500;
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-    margin-right: 200px;
+
+
+
+.hoe {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 17px;
-    display: block;
+
+.hoe::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.7px;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  background-color:#fff;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
+
+
+.hoe:hover::before {
+  transform: scaleX(1);
+}
+
 
 .pic {
     height: 350px;
@@ -179,11 +212,13 @@ nav ul li a {
 
 .pic h1 {
     text-align: center;
-    font-size: 125px;
+    font-size: 112px;
     font-weight: bold;
     font-family: 'Yellowtail', cursive;
     letter-spacing: 15px;
     padding-top: 135px;
+    color: #fff;
+
 
 }
 
@@ -252,7 +287,7 @@ nav ul li a {
     box-sizing: border-box;
     display: inline-block;
     text-align: left;
-    background-color: #ff9f1c;
+    background-color: #a25e0a;
     color: aliceblue;
     padding-top: 60px;
     padding-bottom: 10px;
@@ -267,18 +302,18 @@ div p input {
     width: 80%;
     height: 25px;
     outline: none;
-    background-color: #ff9f1c;
+    background-color: #a25e0a;
     color: aliceblue;
-    font-weight: 900;
+    font-weight: 500;
     border: none;
     letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1rem;
     padding-bottom: 0.7rem;
 }
 
 ::placeholder {
-    color: #fff;
+    color: #eee;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -294,7 +329,11 @@ div p input {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
-    background-color: #ff9f1c;
+    background-color: #a25e0a;
     letter-spacing: 2px;
     /* background-image: linear-gradient(to right, rgb(108, 119, 127) 0%, rgb(108, 119, 127) 100%); */
+}
+
+html{
+    background-color: #181A1b;
 }
