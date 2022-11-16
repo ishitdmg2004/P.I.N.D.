@@ -11,8 +11,9 @@
 }
 
 body{
-    background-image: url(https://t3.ftcdn.net/jpg/03/72/12/22/360_F_372122269_XpR2gfCm12brqzgz4xH6sUtss9xf2l4Q.jpg);
+    background-image: url(https://i.pinimg.com/564x/45/07/91/450791000eba5bd0591840293157b1ea.jpg);
     background-repeat: inherit;
+    display: grid;
     
     
 }
@@ -22,25 +23,90 @@ body>h1,.main{
     letter-spacing: 2px;
     padding: 10px 20px;
 }
+.pic{
+  width: 600px;
+  height: 600px;
+}
 
 nav{
     width: 100%;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 10px;
     left: 0;
     padding: 20px 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+  nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 20px;
+   
+  }
   nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 17px;
     display: inline-block;
-    min-width: 100%;
-    min-height: 100%;
-    position: sticky;
+    
   
   }
+  .navbar ul li {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: bisque;
+  }
+  .menu2 img{
+    position: relative;
+    width: 50%;
+    border-radius: 15px 15px 0 0 ;
+    height: auto;
+    margin-left: 700px;
+    
+  } 
+  .menu1 img{
+    position: relative;
+    width: 50%;
+    border-radius: 15px 15px 0 0 ;
+    height: 80%;
+    margin-left: 20px;
+    
+  }
+  .content{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-emphasis-style: bold;
+    letter-spacing: 10px;
+  }
+  .starters{
+    margin-top: 70px;
+  }
+  .h-icons{
+    color: black;
+
+  }
+  .sec1 {
+    
+    
+    font-size: 40px;
+    font-weight: 600;
+    float:right;
+    margin-right: 20px;
+  
+
+    
+  }
+  
+  .sec2{
+    
+   
+    font-size: 40px;
+    font-weight: 600;
+    float: left;
+    }
   
