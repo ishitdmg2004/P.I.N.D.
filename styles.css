@@ -31,6 +31,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+
+video{
+  object-fit: cover;
+}
+
+
+
 body {
   line-height: 1;
   background-color:  #DAA06D;
@@ -95,6 +103,7 @@ nav{
   top: 0;
   left: 0;
   padding: 20px 8%;
+  padding-right: 4%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,7 +116,7 @@ nav .logo{
 nav ul li{
   list-style: none;
   display:inline-block;
-  margin: 25px;
+  margin: 15px;
 }
 nav ul li a{
   text-decoration: none;
@@ -337,7 +346,7 @@ h1{
   height: 75%;
   width: 0;
   border: 3px dashed bisque;
-  top: 10%;
+  top: 8%;
   left: 50%;
   
 }
@@ -349,7 +358,18 @@ h1{
   font-size: 2rem;
   z-index: 2;
 
+
 }
+
+
+
+/*.timeline-traveller{
+  position: sticky;
+  top: 25%;
+  font-size: 1px;
+  z-index: 2;
+
+}*/
 
 .heading-timeline{
   font-size: 1.5rem;
@@ -367,4 +387,285 @@ h1{
 
 .timeline-info{
   font-size: 13px;
+}
+
+.Prateek{
+  height: 240px;
+  width: 434.05px;
+  border-radius: 10px 10px;
+  opacity: 87%;
+}
+
+.Kapil{
+  height: 240px;
+  width: 434.05px;
+  border-radius: 10px 10px ;
+  opacity: 87%;
+
+}
+
+.Sanjeev{
+  height: 240px;
+  width: 434.05px;
+  border-radius: 10px 10px ;
+  opacity: 87%;
+
+}
+
+.Sanam{
+  height: 240px;
+  width: 434.05px;
+  border-radius: 10px 10px ;
+  opacity: 87%;
+}
+
+
+
+#finest{
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+#boldu{
+  font-weight: 400;
+}
+
+
+/*Catering*/
+
+#cater{
+  height: 70vh;
+  opacity: 0.85;
+  background-image: url("catering.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  margin-top: -70px;
+
+}
+/*#caters{
+  height: px;
+}*/
+
+
+#name{
+  opacity: 1;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  letter-spacing: 8px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 70px;
+  padding-top: 150px;
+}
+
+#caterp{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.caterb{
+    border: 2px solid white;
+    font-weight: 750;
+    width: 30%;
+    height: 50px;
+    border-radius: 0%;
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-right: 0px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 6px;
+    
+}
+.caterb:hover{
+  background-color: #fff;
+  color: #954206;
+}
+
+
+
+
+/*--------------------------*/
+
+/*footer*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*body {
+  display: flex;
+  background: #333;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}*/
+
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background: #954206;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.social-icon,
+.footnav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+  word-spacing: 18px;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 16px;
+}
+
+#caps{
+  font-size: 18px;
+}
+/*#arr{
+  font-size: 14px;
+}*/
+
+@font-face {
+    font-family: 'sackers-gothic-std-heavy', sans-serif;
+    src: url("C:\Users\kapil\OneDrive\Documents\HTML\P.I.N.D.-master\SackersGothicStd-Heavy.otf") format("opentype");
+}
+
+#footab{
+  font-family: 'Media Gothic', sans-serif;
+  text-align: center;
+}
+
+#foota{
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+
+#footc{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
 }
