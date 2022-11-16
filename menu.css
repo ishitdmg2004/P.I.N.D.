@@ -63,7 +63,8 @@ nav{
     border-radius: 15px 15px 0 0 ;
     height: auto;
     margin-left: 700px;
-    
+    display: flex;
+
   } 
   .menu1 img{
     position: relative;
@@ -71,6 +72,7 @@ nav{
     border-radius: 15px 15px 0 0 ;
     height: 80%;
     margin-left: 20px;
+    display: flex;
     
   }
   .content{
@@ -91,7 +93,7 @@ nav{
 
   }
   .sec1 {
-    
+    display: flex;
     
     font-size: 40px;
     font-weight: 600;
@@ -101,12 +103,20 @@ nav{
 
     
   }
+
+  .img1{
+    display: flex;
+  }
   
   .sec2{
+    display: flex;
     
-   
     font-size: 40px;
     font-weight: 600;
     float: left;
     }
   
+
+  .mn1{
+    flex-wrap: wrap;
+  }
