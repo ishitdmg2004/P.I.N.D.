@@ -166,6 +166,81 @@ nav ul li a{
 
 
 
+
+
+/*Reservation*/
+
+
+
+#reservation{
+  height: 55vh;
+  opacity: 0.95;
+  background-image: url("reservation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  margin-top: -70px;
+
+}
+/*#caters{
+  height: px;
+}*/
+
+
+#book{
+  opacity: 1;
+  margin-left: 155px;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+/*  letter-spacing: 8px;*/
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 8px;
+}
+
+#bookup{
+  font-style: italic;
+  margin-top: 70px;
+  padding-top: 150px;
+  font-size: 14px;
+  margin-left: 155px;
+  font-family: 'Philosopher', sans-serif;
+  color: lightgrey;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.reservationb{
+    border: 1px solid orange;
+    font-weight: 750;
+    width: 20%;
+    height: 50px;
+    border-radius: 0%;
+    margin-left: 70%;
+    margin-top: -40px;
+    margin-right: 0px;
+    font-size: 22px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 3px;
+    
+}
+.reservationb:hover{
+  background-color: #fff;
+  color: #954206;
+}
+
+
+
+
+/*--------------------------*/
+
+
+
+
 .content{
   text-align: center;
   position: absolute;
@@ -294,7 +369,108 @@ h1{
 }
 
 
+
+
+
+/*Gift card section*/
+
+
+#gift{
+  background-image: url("giftbg2.png");
+  height: 115vh;
+  width: 100%;
+  margin-top: 80px;
+}
+
+#ranveer{
+  padding-top: 80px;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 20px;
+  object-fit: cover;
+}
+
+#badasex{
+  width: 100%;
+}
+
+.sex{
+  display: inline-block;
+  margin: 120px 150px;
+}
+
+#sex1{
+  margin-right:50px ;
+}
+
+#sex2{
+  margin-left: 50px;
+}
+
+
+.gifti{
+  width: 512.5px;
+  height: 358.75px;
+}
+
+#gifthead{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 27px;
+  font-family: 'Archivo', sans-serif;
+  align-items: center;
+
+}
+
+.btngift{
+  border: 2.5px solid black;
+  font-weight: 750;
+  width: 35%;
+  height: 50px;
+  border-radius: 0%;
+  margin-left: 33%;
+  margin-top: 30px;
+  margin-right: 0px;
+  font-size: 15px;
+  background-color: transparent;
+  letter-spacing: 6px;
+
+}
+.giftp{
+  margin-top: 16px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+
+}
+
+.btngift:hover{
+  background-color: #DAA06D;
+  color: #954206;
+}
+
+/*.gift-traveller{
+  position: sticky;
+  left: -5px;
+  top: 25%;
+  transform: rotate(90deg);
+  font-size: 1px;
+  z-index: 2;
+
+
+}*/
+
+
+
+
 /*Events section*/
+
+
+
 
 .timeline{
   position: relative;
@@ -307,6 +483,7 @@ h1{
   background-blend-mode: overlay;
   z-index: 2;
   opacity: 90%;
+  margin-bottom: 80px;
 }
 
 .timeline-box{
@@ -396,7 +573,7 @@ h1{
 .timeline-info{
   font-size: 15px;
   background-color: #DAA06D;
-  border-radius:5px 5px;
+  border-radius: 5px 5px;
 }
 
 .Prateek{
@@ -487,8 +664,8 @@ h1{
 }
 
 .caterb{
-    border: 2.5px solid white;
-    font-weight: 750;
+    border: 1.5px solid orange;
+    font-weight: 500;
     width: 30%;
     height: 50px;
     border-radius: 0%;
