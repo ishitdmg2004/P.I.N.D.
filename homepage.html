@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -12,7 +12,9 @@
         <link href="https://fonts.cdnfonts.com/css/media-gothic" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Philosopher:wght@400;700&family=Playfair+Display:wght@400;500&family=Public+Sans:ital,wght@0,200;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Caveat:wght@400;500;600;700&family=Cinzel&family=Domine:wght@400;500;600;700&family=Kaushan+Script&family=Philosopher:wght@400;700&family=Playfair+Display:wght@400;500&family=Public+Sans:ital,wght@0,200;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/2ac3948285feb38be5177b924782a24c?family=Ivy+Journal" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.cdnfonts.com/css/gibson" rel="stylesheet">
         <script src="mapdata.js"></script>
         <script src="countrymap.js"></script>
        <title>pind-proper indian</title>
@@ -28,8 +30,8 @@
       <ul class="horizontal-list">
         <li><a class="hoe" href="#home">HOME</a></li>
         <li><a class="hoe" href="#menu">MENU/ORDER</a></li>
-        <li><a class="hoe" href="">RESERVATIONS</a></li>
-        <li><a class="hoe" href="">ABOUT</a></li>
+        <li><a class="hoe" href="reservation.html">RESERVATIONS</a></li>
+        <li><a class="hoe" href="aboutus.html">ABOUT</a></li>
         <li><a class="hoe" href="contactus.html">CONTACT US</a></li>
         <li><a class="hoe" href="signin.html">SIGN IN</a></li>
         <li><a class="hoe" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -58,12 +60,8 @@
     <section id="resevations">
       <div id="reservation">
         <p id="bookup">A table only for you</p>
-        <h1 id="book">BOOK A TABLE FOR YOURSELF AT A TIME<br>CONVENIENT FOR YOU.</h1>
-        
-        <div><a href=""><button class="reservationb">Book Table Now</button></a></div>
-        
-
-
+        <h1 id="book">BOOK A TABLE FOR YOURSELF AT A TIME<br>CONVENIENT FOR YOU.</h1>  
+        <a href=""><button  id="booknow" class="reservationb">Book Table Now</button></a>
       </div>
     </section>
 
@@ -246,6 +244,65 @@
 
     </section>
 
+    <section id="letstalk">
+      <div id="photo">
+        <img class="letstalkp" src="letstalk.webp">
+      </div>
+
+      <div class="real">
+        <h1 id="letstalkh">how we keep it real</h1>
+      </div>
+      <div id="ltbox">
+       <div class="onetwo">
+        <div class="oneupbox" id="leftbox1">
+          <div class="boxhead">
+            01. HEAR YOUR STORY
+          </div>
+          <div class="boxpara">
+            First things first, let’s get to know each other! We want to hear about what you care about and where you’ve been, as well as your likes and dislikes. Our first conversation together is the most important piece of the pie. Speaking of pie, what’s your favorite dessert?
+          </div>
+        </div>
+        <div class="onedownbox" id="leftbox2">
+          <div class="boxhead">
+            02. WHIP UP A PROPOSAL
+          </div>
+          <div class="boxpara">
+            We’ll put together a proposal spelled out in human terms that lays out everything you discussed with us. This includes your custom menu that has been crafted to fit you as well as other important information like guest count, budget, theme ideas and anything else.
+          </div>
+        </div>
+       </div>
+
+       <div class="threefour">
+
+        <div class="oneupbox" id="rightbox1">
+          <div class="boxhead" >
+            03. PRESENT IT FOR YOU
+          </div>
+          <div class="boxpara">
+            We walk you through your event (at a leisurely pace, we might add) from start to finish. This is often the most stressful part of the event process, which is why we make it as clear and hassle-free as possible. Ask us all the questions! We want you to feel absolutely confident in us.
+          </div>
+        </div>
+        <div class="onedownbox"  id="rightbox2">
+          <div class="boxhead">
+            04. LIKE WHAT YOU SEE? BOOK US!
+          </div>
+          <div class="boxpara">
+            Feel good about our connection AND like what you see on paper? Book us! Then schedule your tasting at your earliest convenience. Our passionate team is waiting for you to experience the culinary delights we conjured up just for you.
+          </div>
+        </div>
+       </div>        
+      </div>
+      <div class="ltbtns">
+        <a href="contactus.html"><button class="ltbtn" id="btnl"><span class="ltt">LET'S TALK </span></button><button class="ltbtn" id="btnp"><span class="play"><i class="fa-sharp fa-solid fa-play"></i></span></button></a>
+      </div>
+      
+      
+    </section>
+
+
+
+
+
     <div class="heading">
           
       <h3 id="finest"><span id="boldu">P.I.N.D</span> is one of the finest restaurants in Manhattan, providing excellent food, impeccable service, with an ambience to match.<br><span id="boldu">'Proper Indian'</span> is a restaurant above all others.</h3>
@@ -263,13 +320,6 @@
       </div>
     </section>
 
-    <section>
-      
-    </section>
-
-    
-
-
      
     <footer class="footer">
     <div class="waves">
@@ -278,31 +328,34 @@
       <div class="wave" id="wave3"></div>
       <div class="wave" id="wave4"></div>
     </div>
+    <div class="logobottom">
+      <a href="homepage.html"><img src="pindlogo-nobg.png"></a>
+    </div>
     <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/login">
           <ion-icon name="logo-facebook"></ion-icon>
         </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/i/flow/login">
           <ion-icon name="logo-twitter"></ion-icon>
         </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <li class="social-icon__item"><a class="social-icon__link" href=" https://www.linkedin.com/login">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/login">
           <ion-icon name="logo-instagram"></ion-icon>
         </a></li>
     </ul>
     <ul class="footnav">
       <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
       <li class="menu__item"><a class="menu__link" href="#menu">Menu</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Reservations</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#contactus.html">Contact</a></li>
+      <li class="menu__item"><a class="menu__link" href="reservations.html">Reservations</a></li>
+      <li class="menu__item"><a class="menu__link" href="aboutus.html">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="contactus.html">Contact</a></li>
       <li class="menu__item"><a class="menu__link" href="signin.html">SignIn</a></li>
 
 
     </ul>
-    <p id="footab"><span id="footc">&copy;2022 </span> &nbsp <span id="caps">P</span>ravesh . <span id="caps">I</span>shit . <span id="caps">N</span>andani . <span id="caps">D</span>eepanshu &nbsp <span id="foota">|</span> &nbsp <span id="arr">All Rights Reserved</span></p>
+    <p id="footab">copyright <span id="footc">&copy; 2022 </span> &nbsp <span id="caps">P</span>ravesh . <span id="caps">I</span>shit . <span id="caps">N</span>andani . <span id="caps">D</span>eepanshu &nbsp <span id="foota">|</span> &nbsp <span id="arr">All Rights Reserved</span></p>
     </footer>
     
 
