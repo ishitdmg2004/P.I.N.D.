@@ -140,38 +140,54 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px 8%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav .logo{
-  width:70px;
-}
-  
-nav ul li{
-  list-style: none;
-  display:inline-block;
-  margin: 25px;
-}
-nav ul li a{
-  text-decoration: none;
-  color: ghostwhite;
-/*  transition: color 1s, border-bottom: 4s;*/
-  font-size: 17px;
-}
 
 
-.hoe:hover{
-  color: #d2d2d2;
-/*  border-bottom: 1px solid;*/
-/*    padding-bottom: 10px;*/
+
+
+
+/* --------------nav bar--------------- */
+
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 70px;
+}
+
+nav ul {
+    margin-right: -80px;
+    padding-right: 0;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 25px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: ghostwhite;
+    /*  transition: color 1s, border-bottom: 4s;*/
+    font-size: 17px;
+}
+
+
+.hoe:hover {
+    color: #d2d2d2;
+    /*  border-bottom: 1px solid;*/
+    /*    padding-bottom: 10px;*/
 
 }
 
@@ -179,31 +195,34 @@ nav ul li a{
 
 
 .hoe {
-  position: relative;
-  color: #fff;
-  text-decoration: none;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
 }
 
 
 .hoe::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 0.7px;
-  top: 100%;
-  bottom: 0;
-  left: 0;
-  background-color:#fff;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.7px;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
 }
 
 
 .hoe:hover::before {
-  transform: scaleX(1);
+    transform: scaleX(1);
 }
 
+
+/* 
+------------purana contact us-------------- */
 
 .pic {
     height: 350px;
@@ -267,9 +286,9 @@ nav ul li a{
     line-height: 50px;
 }
 
-.cont i {
+/* .cont i {
     background-image: linear-gradient(to right, rgb(14, 101, 163) 0%, rgb(3, 59, 85) 100%);
-}
+} */
 
 .cont h2,
 .send h2 {
@@ -334,6 +353,339 @@ div p input {
     /* background-image: linear-gradient(to right, rgb(108, 119, 127) 0%, rgb(108, 119, 127) 100%); */
 }
 
-html{
+html {
     background-color: #181A1b;
+}
+
+
+/* --------------thanks section----------------- */
+
+
+
+.touch {
+    text-align: center;
+    background-color: #f7f0e8;
+}
+
+/* @font-face {
+    font-family: "";
+    src: url("silverSouth.eot");
+    src: url("silversouth-webfont.woff") format("woff"),
+    url("SilverSouth.otf") format("opentype"),
+    url("silversouth-webfont.woff2") format("svg");
+    } */
+
+.touch h1 {
+    /* font-family: 'CustomFont', Arial, sans-serif; */
+    /* font-family: 'Sembilu Script', sans-serif; */
+    font-family: 'Black Ming', sans-serif;
+
+    letter-spacing: 2px;
+    font-size: 120px;
+    font-weight: 900;
+    padding-top: 100px;
+}
+
+.touch h2 {
+    font-family: 'Media Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -10px;
+    padding-bottom: 100px;
+    color: #181A1b;
+}
+
+
+
+
+
+
+
+
+
+/* -----------naya section--------------*/
+
+
+#fb,
+#insta,
+#twit,
+#link {
+    background-color: bisque;
+    border: 3px #954206 solid;
+    color: #954206;
+}
+
+/* #insta {
+    background-color: #fff;
+    border: 7px solid linear-gradient(to right, rgb(255, 40, 194), hsl(354, 100%, 55%));
+    color: linear-gradient(to right, rgb(255, 40, 194), hsl(354, 100%, 55%));
+}
+
+#twit {
+    background-color: #fff;
+    border: 7px solid linear-gradient(to right, rgb(0, 238, 255));
+    color: linear-gradient(to right, rgb(0, 238, 255));
+}
+
+#link {
+    background-color: #fff;
+    border: 7px solid linear-gradient(to right, #283576);
+    color: linear-gradient(to right, #283576);
+} */
+
+.linkz li {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.socio {
+    background-color: #fff;
+
+
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.lamb {
+    width: 60%;
+    background-image: url('newimg-removebg.png'), url('giftbg2.png');
+    background-position: bottom, center;
+    background-size: 100% 90%, 100% 100%;
+    background-repeat: no-repeat;
+
+    height: 700px;
+    margin: 0;
+}
+
+/* @font-face {
+    font-family: SilverSouth, script;
+    src: url("SilverSouth.otf") format("opentype");
+} */
+
+.lamb h1 {
+    font-family: 'Black Ming', sans-serif;
+
+
+    font-size: 175px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+
+.linkz ul {
+    margin: 0 25%;
+}
+
+.linkz ul h1 {
+    font-family: 'Media Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.linkz {
+    width: 40%;
+    height: 700px;
+    margin: 0;
+    background-image: url('giftbg2.png');
+    background-size: contain;
+    align-items: center;
+
+}
+
+
+.link i {
+    padding-left: 5px;
+}
+
+
+.linkz,
+.social,
+.lamb {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/*body {
+  display: flex;
+  background: #333;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}*/
+
+
+/* --------footer starts---------- */
+
+
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background: #954206;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.social-icon,
+.footnav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+    word-spacing: 18px;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: 16px;
+}
+
+#caps {
+    font-size: 18px;
+}
+
+/*#arr{
+  font-size: 14px;
+}*/
+
+@font-face {
+    font-family: 'sackers-gothic-std-heavy', sans-serif;
+    src: url("C:\Users\kapil\OneDrive\Documents\HTML\P.I.N.D.-master\SackersGothicStd-Heavy.otf") format("opentype");
+}
+
+#footab {
+    font-family: 'Media Gothic', sans-serif;
+    text-align: center;
+}
+
+#foota {
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+#footc {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
 }
