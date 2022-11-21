@@ -1,0 +1,523 @@
+@import url('https://fonts.cdnfonts.com/css/george-rounded');
+
+body{
+    background-image:url("bg image.jpg") ;
+  
+}
+.main{
+    background-image: url("b515b812e6679e9e1b01e9d07d56c89e.jpg");
+    height: 550px;
+    width: 100%;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+/*Nav sec*/
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo{
+    width:70px;
+  }
+    
+  nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 15px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+  /*  transition: color 1s, border-bottom: 4s;*/
+    font-size: 17px;
+  }
+  
+  
+  .hoe:hover{
+    color: #d2d2d2;
+  /*  border-bottom: 1px solid;*/
+  /*    padding-bottom: 10px;*/
+  
+  }
+  
+  
+  
+  
+  .hoe {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .hoe::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.7px;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:#fff;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .hoe:hover::before {
+    transform: scaleX(1);
+  }
+  
+  
+  
+  
+.look{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'George Rounded';
+
+}
+
+.wait{
+    padding-top:15px;
+    text-align: center;
+    color:white;
+}
+
+.butt{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.butt>button{
+    font-size: 15px;
+    color: white;
+    border: 1.5px solid white;
+    font-weight: 500;
+    width: 35%;
+    height: 50px;
+    border-radius: 0%;
+    margin-left: 0%;
+    margin-top: 18px;
+    margin-right: 0px;
+    background-color: transparent;
+    letter-spacing: 6px;
+
+}
+.offers{
+    background-color: #DAA06D;
+    height:550px;
+    margin-top: 0px;
+    background-image: url("bg image.jpg");
+}
+.serve{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+
+.taskpr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+}
+.task1{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    
+    border: 0;
+    height: 400px;
+    width: 33.33%;
+    background-image: url("Event-catering-square.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.task1a{
+    padding-top:40px;
+}
+.task1b{
+    padding-top:50px;
+}
+
+.knowmore{
+    color:white;
+    height:40px; 
+    width:120px; 
+    background-color: rgb(149, 66, 6); 
+    border:  white;
+
+}
+.knowmore:hover{
+    background-color: rgb(149, 66, 6);
+    filter: opacity(0.5);
+}
+.task2{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:400px;
+    width:33.33%;
+    background-image: url("Wedding-catering-square-1.jpg");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    
+}
+.task1,.task2,.task3{
+    margin-top: 10px;
+}
+
+
+.task3{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:400px;
+    width:33.33%;
+    background-image: url("Birthday-Food-Catering-scaled (1).jpg");
+    filter:brightness(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.taskkk1{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:300px;
+    width:250px;
+    background-image: url("8044785.png");
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    
+}
+
+.taskkk2{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:300px;
+    width:250px;
+    background-image: url("6512474.png");
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+}
+.taskkk3{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:300px;
+    width:250px;
+    background-image: url("8509053.png");
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+}
+.taskkk4{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    height:300px;
+    width:250px;
+    background-image: url("4033548.png");
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+}
+
+.hiii2{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.formmm{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        height:700px;
+    }
+        
+    
+
+
+.form{
+    line-height: 85px;
+    box-sizing: border-box;
+    display:inline-block;
+    text-align:left;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+     width: 400px;
+    height: 200px;    
+}
+
+.formog{
+    width: 600px;
+    display:inline-block;
+    padding-top:60px;
+    padding-left:100px;
+    margin-top:0px;
+}
+
+.tabs{
+    padding: 18.5px 14px;
+    background-color: #eee;
+    width: 400px; 
+    margin-top: 10px;
+    border:0px;
+}
+.buttonform{
+    color: white;
+    border: 3px solid white;
+    font-weight: 500;
+    width: 400px;
+    height: 50px;
+    border-radius: 0%;
+    margin-left: 0%;
+    margin-top: 30px;
+    margin-right: 0px;
+    background-color: transparent;
+    letter-spacing: 6px;
+    font-size: 23px;
+
+}
+
+#fun{
+    color: black;
+}
+
+.form h1{
+    margin-bottom: 0px;
+
+}
+
+.form h2{
+    margin-top: 0px;
+    height: 40px;
+}
+
+/*footer*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*body {
+  display: flex;
+  background: #333;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}*/
+
+
+.logobottom{
+  text-align: center;
+  height: 80px;
+  width: 100%;
+
+}
+
+.logobottom img{
+  height: 80px;
+  width: 80px;
+}
+
+/*.logodash{
+  color: bisque;
+  font-weight: 2px;
+  padding-top: -30px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 40px;
+  bottom: 0px;
+  margin-bottom: 100px;
+}*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background: #954206;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.social-icon,
+.footnav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+  word-spacing: 18px;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 16px;
+}
+
+#caps{
+  font-size: 18px;
+}
+/*#arr{
+  font-size: 14px;
+}*/
+
+@font-face {
+    font-family: 'sackers-gothic-std-heavy', sans-serif;
+    src: url("C:\Users\kapil\OneDrive\Documents\HTML\P.I.N.D.-master\SackersGothicStd-Heavy.otf") format("opentype");
+}
+
+#footab{
+  font-family: 'Media Gothic', sans-serif;
+  text-align: center;
+}
+
+#foota{
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+
+#footc{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
