@@ -189,6 +189,7 @@ nav ul li a{
 
 
 #book{
+  display: inline-block;
   opacity: 1;
   margin-left: 155px;
   font-size: 34px;
@@ -198,6 +199,7 @@ nav ul li a{
 /*  letter-spacing: 8px;*/
   font-family: 'Philosopher', sans-serif;
   margin-top: 8px;
+  margin-bottom: -20px;
 }
 
 #bookup{
@@ -386,7 +388,7 @@ h1{
   padding-top: 80px;
   margin-top: 80px;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Archivo', sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -574,6 +576,7 @@ h1{
   font-size: 15px;
   background-color: #DAA06D;
   border-radius: 5px 5px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 .Prateek{
@@ -622,6 +625,180 @@ h1{
 }
 
 
+
+/*lets talk*/
+
+
+@import url('https://fonts.cdnfonts.com/css/gibson');
+
+#letstalk{
+  height: 190vh;
+  width: 90%;
+  background-color: black;
+  margin: 80px;
+}
+
+.letstalkp{
+  background-size: contain;
+  opacity: 0.95;
+  height: 20%;
+  width: 100%;
+}
+
+
+/*@import url(//db.onlinewebfonts.com/c/2ac3948285feb38be5177b924782a24c?family=Ivy+Journal);
+@font-face {
+  font-family: "Ivy Journal"; 
+  src: url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.eot"); 
+  src: url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.woff") format("woff"), url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2ac3948285feb38be5177b924782a24c.svg#Ivy Journal") format("svg");
+}*/
+
+#letstalkh{
+  font-family: 'Cinzel', serif;  
+  color: #C1C1C1;
+  font-size: 64px;
+  font-weight: 300;
+  margin: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#ltbox{
+  display: flex;
+  width: 100%;
+  height: 700.31px;
+  color: #C1C1C1;
+  padding: 70px 130.214px;
+  justify-content: space-evenly;
+
+}
+
+.onetwo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.threefour{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.oneupbox{
+  border-top: 1.5px solid #C1C1C1;
+  border-bottom: 1.5px solid #C1C1C1;  
+  width: 494.83px;
+  height: 254.26px;
+  padding: 30px 0px 40px;
+
+}
+
+.onedownbox{
+  border-bottom: 1.5px solid #C1C1C1;  
+  width: 494.83px;
+  height: 254.26px;
+  padding: 30px 0px 40px;
+
+}
+
+.leftbox{
+  margin-right: 20px;
+}
+#rightbox1, #rightbox2{
+  padding-left: 25px;
+}
+#leftbox1, #leftbox2{
+  padding-right: 25px;
+}
+
+
+
+.boxhead{
+  letter-spacing: 4px;
+  font-family: 'Gibson', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.boxpara{
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  font-family: 'Philosopher', sans-serif;
+  color: #fff;
+
+}
+
+.ltbtns{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.ltbtn{
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #C6AC60;
+  font-family: 'Gibson',sans-serif;
+  font-size: 19px;
+  letter-spacing: 3.5px;
+}
+
+.play{
+  font-size: 16.5px;
+}
+
+#btnl:hover{
+  transform: translateX(-5px);
+}
+
+#btnl{
+  transition: transform 0.3s;
+}
+
+#btnp{
+  transition: transform 0.3s;
+  margin-left: 4px;
+}
+
+#btnp:hover{
+  transform: translateX(5px);
+}
+
+
+
+
+
+
+
+
+/* .ltBtn::after,{
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #c6ac60;
+}
+
+.ltBtn::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: all .3s;
+}
+.ltBtn::after {
+    margin-left: 10px;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+*/
+
+
+
+
+
 /*Catering*/
 
 #cater{
@@ -631,7 +808,7 @@ h1{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   margin-top: -70px;
 
 }
@@ -689,6 +866,8 @@ h1{
 
 /*--------------------------*/
 
+
+
 /*footer*/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -708,6 +887,29 @@ h1{
   min-height: 100vh;
 }*/
 
+
+.logobottom{
+  text-align: center;
+  height: 80px;
+  width: 100%;
+
+}
+
+.logobottom img{
+  height: 80px;
+  width: 80px;
+}
+
+/*.logodash{
+  color: bisque;
+  font-weight: 2px;
+  padding-top: -30px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 40px;
+  bottom: 0px;
+  margin-bottom: 100px;
+}*/
 
 .footer {
   position: absolute;
